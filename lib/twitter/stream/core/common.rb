@@ -38,7 +38,7 @@ module Twitter
       end
 
       def on_disconnect(&block)
-        on('disconnetc', &block)
+        on('disconnect', &block)
       end
 
       def on_status_withheld(&block)
